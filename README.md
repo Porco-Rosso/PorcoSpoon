@@ -2,7 +2,7 @@
 
 After having discovered the extremely powerful [Hammerspoon](http://www.hammerspoon.org/) app, and finally landing on a configuration that I am very happy with, I thought I should share it with others to enjoy. I've tried to comment `init.lua` to make it easier to understand.
 
-I use this config together with some Karabiner remapping to achieve a fast and usable config with a short learning curve.
+I use this config together with some [Karabiner](https://karabiner-elements.pqrs.org) remapping to achieve a fast and usable config with a short learning curve.
 
 # Features
 
@@ -10,8 +10,8 @@ I use this config together with some Karabiner remapping to achieve a fast and u
 - Hyper Key
 - Additional hotkeys to switch spaces
 - Window Switcher menu
-- Quick per-application window switcher (Across spaces!)
-- Rounded window corners
+- **Quick per-application window switcher (Across spaces!)**
+- Rounded screen corners
 - MiroWindowManager with reduced animation times
 - Universal Mic muter with hotkey
 - Drag to resize and move windows
@@ -28,18 +28,20 @@ Hyper is what people like to call a special shortcut comprised of multiple modif
 Hyper = <kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>cmd</kbd>
 
 ### Karabiner configuration
-I've used Karabiner and the default mac hotkey settings to remap the useless <kbd>capslock</kbd> key into something extremely powerful. If you tap <kbd>capslock</kbd>, it triggers "non_us_backslash" (what even is that?) which I have remapped to open spotlight or Alfred. Hold it and it acts like the hyper modifier. Perfect.
+I've used [Karabiner](https://karabiner-elements.pqrs.org) and the default mac hotkey settings to remap the useless <kbd>capslock</kbd> key into something extremely powerful. If you tap <kbd>capslock</kbd>, it triggers "non_us_backslash" (what even is that?) which I have remapped to open spotlight or Alfred. Hold it and it acts like the hyper modifier. Perfect.
 
 ### Launcher
-I use Hyper + `<key>` to either launch or switch to certain applications. This is easily configured in the init.lua file so feel free to modify it for your own use. 
+I use <kbd>Hyper</kbd> + `<key>` to either launch or switch to certain applications. This is easily configured in the init.lua file so feel free to modify it for your own use. 
 
 examples:
 
-Hyper+<kbd>V</kbd> = Launch or switch to Vivaldi
-Hyper+<kbd>S</kbd> = Launch or switch to Slack
-Hyper+<kbd>C</kbd> = Launch or switch to Calendar
-Hyper+<kbd>E</kbd> = Launch or switch to Excel
+- <kbd>Hyper</kbd>+<kbd>V</kbd> = Launch or switch to Vivaldi
+- <kbd>Hyper</kbd>+<kbd>S</kbd> = Launch or switch to Slack
+- <kbd>Hyper</kbd>+<kbd>C</kbd> = Launch or switch to Calendar
+- <kbd>Hyper</kbd>+<kbd>E</kbd> = Launch or switch to Excel
 ... you get the idea
+
+### App Switcher
 
 Many other configs online have similar features, but what is unique about this config is that if the app is already focused and you hit the key combination again, focus will cycle through the open windows of the current application. This works across spaces, and is really great when you have a bunch of windows open at the same time.
 
@@ -58,11 +60,11 @@ Thanks to the help of [dmgerman](https://github.com/dmgerman) who's code allowed
 MiroWindowsManager also has some hotkeys mapped to it.
 I use the following:
 
-Hyper+<kbd>up</kbd> = Resize the window to take up the top half of the screen
-Hyper+<kbd>down</kbd> = Resize the window to take up the bottom half of the screen
-Hyper+<kbd>right</kbd> = Resize the window to take up the right half of the screen
-Hyper+<kbd>left</kbd> = Resize the window to take up the left half of the screen
-Hyper+<kbd>f</kbd> = Resize the window to take up the whole screen
+- <kbd>Hyper</kbd>+<kbd>up</kbd> = Resize the window to take up the top half of the screen
+- <kbd>Hyper</kbd>+<kbd>down</kbd> = Resize the window to take up the bottom half of the screen
+- <kbd>Hyper</kbd>+<kbd>right</kbd> = Resize the window to take up the right half of the screen
+- <kbd>Hyper</kbd>+<kbd>left</kbd> = Resize the window to take up the left half of the screen
+- <kbd>Hyper</kbd>+<kbd>f</kbd> = Resize the window to take up the whole screen
 
 Tapping the respective keys again does extra things, best to head to [MiroWindowsManager](https://github.com/miromannino/miro-windows-manager) page to learn more.
 
@@ -72,7 +74,9 @@ Tapping the respective keys again does extra things, best to head to [MiroWindow
 
 The [Skyrocket Spoon](https://github.com/dbalatero/SkyRocket.spoon) allows to resize and move windows conveniently without having to grab a window by the corner of window decoration.
 
-In my config <kbd>ctrl</kbd>+<kbd>shift</kbd> allows you to move a window with the mouse and <kbd>alt</kbd>+<kbd>shift</kbd> allows you to resize a window with the mouse.
+In my config:
+- <kbd>ctrl</kbd>+<kbd>shift</kbd> allows you to move a window with the mouse
+- <kbd>alt</kbd>+<kbd>shift</kbd> allows you to resize a window with the mouse.
 
 
 ## Micmute
