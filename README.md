@@ -52,6 +52,7 @@ Thanks to the help of [dmgerman](https://github.com/dmgerman) who's code allowed
 
 - <kbd>alt</kbd>+<kbd>b</kbd> opens a switcher dialogue for all open windows
 - <kbd>alt</kbd>+<kbd>shift</kbd>+<kbd>b</kbd> opens a switcher dialogue for all open windows for the current app
+- <kbd>hyper</kbd>+<kbd>tab</kbd> switches to the last focused window
 
 ## MiroWindowsManager
 
